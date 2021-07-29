@@ -1,0 +1,26 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "blockchain",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@truffle/contract": "^4.3.5",
+    "bootstrap": "^4.6.0",
+    "nodemon": "^1.17.3",
+    "truffle": "5.1.62"
+  },
+  "dependencies": {
+    "lite-server": "^2.6.1",
+    "solc": "^0.8.2",
+    "web3": "^1.3.3"
+  }
+}
